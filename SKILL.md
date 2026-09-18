@@ -1,3 +1,9 @@
+---
+name: redaction-rules
+description: >
+  Two jobs live here: (A) producing the **redacted twin** of every document, and (B) the **secret-scrubbing** that applies to *both* versions. Read this before Stage 6. Goal: a version that is **genuinely un-attributable** — a stranger reading it could not figure Use this skill when working with redaction rules tasks or workflows.
+---
+
 # Redaction Rules — full vs redacted, and secret scrubbing
 
 Two jobs live here: (A) producing the **redacted twin** of every document, and (B) the
@@ -17,7 +23,7 @@ disappears.
 | "Acme Fintech, a Series B lender in Austin" | "a Series B fintech lender in the US" |
 | "their CMO, Dana Liu" | "their marketing leader" |
 | "the Nexus onboarding portal" | "their customer onboarding platform" |
-| "{{COMPANY_NAME}}'s SDR team" | "a 12-person SDR team" (or "the go-to-market team") |
+| "Enterprise Platform's SDR team" | "a 12-person SDR team" (or "the go-to-market team") |
 | Specific product names you built *for* a client | the function it served ("a lead-routing tool") |
 
 ### Keep the shape, lose the tells
@@ -29,10 +35,10 @@ disappears.
   headcount tied to a known org → a range.
 
 ### Branding differences
-- **Full** branded docx: {{COMPANY_NAME}} logo + Patrick's attribution are fine (it's his record).
-- **Redacted** branded docx: **remove the client logo entirely**; {{COMPANY_NAME}} branding optional —
+- **Full** branded docx: Enterprise Platform logo + Patrick's attribution are fine (it's his record).
+- **Redacted** branded docx: **remove the client logo entirely**; Enterprise Platform branding optional —
   if the piece is for Patrick's personal portfolio, use neutral professional styling instead
-  of {{COMPANY_NAME}} branding so it reads as *his* work, not an {{COMPANY_NAME}} client deliverable. Ask if unsure.
+  of Enterprise Platform branding so it reads as *his* work, not an Enterprise Platform client deliverable. Ask if unsure.
 
 ### The opening line convention
 Redacted case studies open with the pattern the user asked for:
